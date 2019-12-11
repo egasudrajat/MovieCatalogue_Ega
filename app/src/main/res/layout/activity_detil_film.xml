@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:padding="10dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/round">
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgdetil"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            tools:src="@color/colorAccent"
+            android:contentDescription="@string/poster" />
+
+        <TextView
+            android:id="@+id/tv_namadetil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:background="@color/transparent_black"
+            android:drawableStart="@drawable/ic_collections_white_18dp"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:textColor="@android:color/primary_text_dark_nodisable"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            tools:text="Nama Film" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_detilrilis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tanggal_rilis"
+    />
+    <TextView
+        android:id="@+id/tv_durasifilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/durasi_film"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/overview"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/horizontal_margin"/>
+    <TextView
+        android:id="@+id/tv_Deskripsidetil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        tools:text="@string/deskripsifilm"
+        android:textSize="16sp"
+
+        />
+</LinearLayout>
+
+</RelativeLayout>

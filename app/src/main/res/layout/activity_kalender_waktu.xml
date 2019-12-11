@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Lainnya.ActivityKalenderWaktu">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_calender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalender"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jam"/>
+    <com.example.moviecatalogueega.Helper.DatePickerView
+        android:id="@+id/bt_datepick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Awal"
+        android:background="@drawable/round"
+        android:layout_marginLeft="29dp"
+        android:padding="10sp"
+        android:layout_marginTop="10dp"
+        android:textSize="13sp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ethasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Hasil"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selisih Waktu"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/jam1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih jam"/>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ethasil2"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:hint="Hasil"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ethasil3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Hasil selisih"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selisih Tanggal"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tgl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Pilih tanggal"/>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ethasil4"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:hint="Hasil"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ethasil5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Hasil"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

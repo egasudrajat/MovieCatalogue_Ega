@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_pindah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pindah aktivity"
+        />
+    <Button
+        android:id="@+id/btn_pindah_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="move aktiviti dengan data"/>
+    <Button
+        android:id="@+id/btn_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dial number"/>
+    <Button
+        android:id="@+id/bt_movewithobject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pindah dengan objek"/>
+    <Button
+        android:id="@+id/bt_movewithresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pindah kembali hasil"/>
+    <Button
+        android:id="@+id/bt_dialoginterface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Interface"/>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Dari Aktivityresult"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/panjang"
+            />
+        <EditText
+            android:id="@+id/et_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lebar"
+            />
+        <EditText
+            android:id="@+id/et_lebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tinggi"
+            />
+        <EditText
+            android:id="@+id/et_tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hitung"/>
+
+    </LinearLayout>
+</LinearLayout>

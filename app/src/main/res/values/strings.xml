@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Movie Catalogue Ega</string>
+    <string name="nama_film">Nama Film</string>
+    <string name="deskripsifilm">Deskripsi film "Between personal obligations and training for his next big fight against an opponent with ties to his family's past, Adonis Creed is up against the challenge of his life.",
+</string>
+    <string name="tglrilis">Tanggal Rilis</string>
+    <string name="detil_movie">Detil Movie</string>
+    <string name="tanggal_rilis">Tanggal Rilis</string>
+    <string name="durasi_film">Durasi Film : 1h 34m</string>
+    <string name="poster">Poster</string>
+    <string name="overview">Overview</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="content_text">Google announced it officialy it mch anticipated pixel phone Find google pixel 2 stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection. Thousands of new</string>
+    <string name="content_spec_display">5.0 inch FHD AMOLED at 441ppi</string>
+    <string name="conten_spec_size">14x18x19 - 0.3 inches</string>
+    <string name="content_spec_battery">2.770 mah  	Non-removable Li-Ion 2700 mAh battery Charging 	Fast battery charging (capped at 10.5 W)USB Power Delivery 2.0
+    </string>
+    <string name="beli">Beli</string>
+    <string name="narenda_wicaksono">Narenda Wicaksono</string>
+    <string name="baterry">Baterry</string>
+    <string name="size">Size</string>
+    <string name="stock_hanya_5_buah">Stock hanya 5 buah</string>
+    <string name="_732">$732</string>
+    <string name="_6_photos">6 Photos</string>
+    <string name="specification">Specification</string>
+
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="hitung">Hitung</string>
+    <string name="Tab1">Tab 1</string>
+    <string name="Tab2">Tab 2</string>
+    <string name="Tab3">Tab 3</string>
+
+    <string-array name="BrowseImage">
+        <item>gallery image</item>
+        <item>camera image</item>
+        <item>remove image</item>
+    </string-array>
+
+    <string-array name="dialoginterface">
+        <item> </item>
+        <item><string name="Tab45">Tab 3</string></item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+    </string-array>
+
+</resources>

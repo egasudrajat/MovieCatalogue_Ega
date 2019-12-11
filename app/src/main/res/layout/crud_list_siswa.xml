@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="15dp">
+
+    <com.androidnetworking.widget.ANImageView
+        android:id="@+id/imagevw"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/textListMahasiswaNama"
+        android:text="nama"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imagevw"
+        />
+    <TextView
+        android:id="@+id/textListMahasiswakelas"
+        android:layout_below="@+id/textListMahasiswaNama"
+        android:text="kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imagevw"
+
+        />
+    <TextView
+        android:id="@+id/textListMahasiswaalamat"
+        android:layout_below="@+id/textListMahasiswakelas"
+        android:text="alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imagevw"
+        />
+</RelativeLayout>

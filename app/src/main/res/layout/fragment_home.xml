@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@color/colorAccent"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btn_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ke fragment kategori"
+        android:layout_margin="16dp"
+        />
+
+</LinearLayout>
