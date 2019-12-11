@@ -27,6 +27,8 @@ public class MainActivityViewPager extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
         getSupportActionBar().setElevation(0);
 
+//        coba coba coba
+
 //        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 //        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
 //            @Override
